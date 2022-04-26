@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'DaftarController@index');
-Route::post('/register', 'DaftarController@store')->name('store');
+Route::post('/register', 'DaftarController@store')->name('register');
