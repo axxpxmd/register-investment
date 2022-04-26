@@ -2,10 +2,14 @@
 @section('content')
 <div class="container-contact100">
     <div class="wrap-contact100 animate__animated animate__zoomIn">
-        <img class="mx-auto d-block" src="{{ asset('images/success.png') }}" width="150" alt="">
         <div class="text-center">
             <p class="fs-20 text-black font-weight-bold">Success!</p>
             <p class="fs-16 text-black">Please Check Your E-mail</p>
+        </div>
+        <img class="mx-auto d-block" src="{{ asset('images/success.png') }}" width="150" alt="">
+        <div class="mt-4 text-center">
+            <p class="text-black fs-14">Hi {{ $name }},</p>
+            <p class="text-black fs-14">You have registered, please check your email {{ $email }} for further information</p>
         </div>
     </div>
 </div>

@@ -47,6 +47,9 @@ class DaftarController extends Controller
 
         dispatch(new EmailJob($email, $name, $dataConfigEmail));
 
-        return view('pages.success');
+        return view('pages.success', compact(
+            'name',
+            'email'
+        ));
     }
 }
