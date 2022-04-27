@@ -51,4 +51,5 @@
     <script src="{{ asset('assets/vendor/daterangepicker/daterangepicker.js') }}"></script>
     <script src="{{ asset('assets/vendor/countdowntime/countdowntime.js') }}"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>
+    @yield('script')
 </html>

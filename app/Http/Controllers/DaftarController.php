@@ -20,6 +20,11 @@ class DaftarController extends Controller
         return view('pages.form-daftar');
     }
 
+    public function create(Request $request)
+    {
+        return view('pages.confirm');
+    }
+
     public function store(Request $request)
     {
         $request->validate([
