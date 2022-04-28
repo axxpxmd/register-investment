@@ -371,7 +371,7 @@
                                     <tr>
                                         <td>
                                             <p>Hi {{ $name }},</p>
-                                            <p>{{ $body }}</p>
+                                            <p> {!! $body !!}</p>
                                             <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
                                             </table>
                                         </td>
